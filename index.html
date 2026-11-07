@@ -1,46 +1,158 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+    <meta charset="UTF-8">
     <title>Mi pagina personal</title>
+
+    <style>
+
+        body {
+            background-color: #eaf2f8;
+            font-family: Arial;
+            margin: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #234e70;
+            color: white;
+            text-align: center;
+            padding: 45px;
+        }
+
+        header h1 {
+            font-size: 35px;
+        }
+
+        nav {
+            background-color: #16324f;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        nav a:hover {
+            color: #8fd3ff;
+        }
+
+        section {
+            background-color: white;
+            margin: 25px auto;
+            padding: 25px;
+            width: 80%;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #234e70;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        li {
+            margin: 12px;
+        }
+
+        footer {
+            background-color: #16324f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+    </style>
 </head>
 
-<body style="background-color: lightblue;">
+<body>
 
-    <h1>Hola, soy Kevin</h1>
+    <header>
+        <h1>Hola, soy Kevin</h1>
+        <p>Bienvenidos a mi pagina personal</p>
+    </header>
 
-    <p>Bienvenidos a mi pagina personal.</p>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre">Sobre mi</a>
+        <a href="#gustos">Mis gustos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
 
-    <hr>
+    <section id="inicio">
+        <h2>Inicio</h2>
 
-    <h2>Sobre mi</h2>
+        <p>
+            ¡Hola! Mi nombre es Kevin.
+            Esta es mi pagina personal, un pequeño espacio
+            donde puedes conocer un poco mas sobre mi.
+        </p>
+    </section>
 
-    <p>Soy estudiante de grado 11 y me gusta aprender
-    cosas nuevas sobre tecnologia.</p>
+    <section id="sobre">
+        <h2>Sobre mi</h2>
 
-    <h2>Mis gustos</h2>
+        <p>
+            Soy estudiante de grado 11 y me gusta aprender
+            cosas nuevas. Me interesa mucho la tecnologia
+            y quiero seguir mejorando mis conocimientos.
+        </p>
 
-    <ul>
-        <li>Escuchar musica</li>
-        <li>Jugar videojuegos</li>
-        <li>Aprender programacion</li>
-        <li>Usar la tecnologia</li>
-    </ul>
+        <p>
+            En el futuro me gustaria aprender mas sobre
+            programacion y crear mis propias aplicaciones.
+        </p>
+    </section>
 
-    <h2>Lo que estoy aprendiendo</h2>
+    <section id="gustos">
+        <h2>Mis gustos e intereses</h2>
 
-    <p>Estoy aprendiendo HTML y CSS para crear
-    mis propias paginas web.</p>
+        <ul>
+            <li>Escuchar musica</li>
+            <li>Jugar videojuegos</li>
+            <li>Aprender sobre tecnologia</li>
+            <li>Conocer cosas nuevas</li>
+            <li>Aprender programacion</li>
+        </ul>
+    </section>
 
-    <h2>Contacto</h2>
+    <section>
+        <h2>Lo que estoy aprendiendo</h2>
 
-    <p>Correo: kevinleonardoar15@gmail.com</p>
-    <p>Telefono: 3125439858
-    </p>
+        <p>
+            Actualmente estoy aprendiendo a crear
+            paginas web utilizando diferentes herramientas.
+        </p>
 
-    <hr>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Creacion de paginas web</li>
+        </ul>
+    </section>
 
-    <p>Mi pagina personal - 2026</p>
+    <section id="contacto">
+        <h2>Contacto</h2>
+
+        <p>
+            Si deseas comunicarte conmigo,
+            puedes hacerlo por medio de mi correo:
+        </p>
+
+        <p>Correo: ejemplo@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>Mi pagina personal - 2026</p>
+        <p>Creada por Kevin</p>
+    </footer>
 
 </body>
 </html>
